@@ -27,3 +27,9 @@
 @theme {
   --font-inter: "Inter", sans-serif;
 }
+
+@layer base {
+  body {
+    @apply bg-neutral-900;
+  }
+}
